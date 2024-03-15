@@ -1,7 +1,7 @@
 
 :root {
     --primary: #4214ae;
-    --white: #fff;
+    --white: rgb(240, 235, 245);;
     --black: #000d33;
     --ff-jost: "Jost", sans-serif;
     
