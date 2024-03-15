@@ -194,7 +194,7 @@
     color: var(--white);
   }
   
-  .mega-box .content .row .mega-links {
+  .mega-box .content .row .items {
     border-left: 1px solid rgba(255, 255, 255, 0.09);
     margin-left: -4rem;
   }
@@ -369,12 +369,12 @@
       border-top: 0;
     }
   
-    .content .row .mega-links {
+    .content .row .items {
       border-left: 0;
       padding-left: 2rem;
     }
   
-    .content .row .mega-links li {
+    .content .row .items li {
       margin: 0;
     }
   
