@@ -137,7 +137,7 @@
   .nav-list .drop-menu1 li a,
   .nav-list .drop-menu2 li a {
     display: block;
-    font-size: 1.5rem;
+    font-size: 10px;
     width: 100%;
     padding: 0 0 0 1.5rem;
     border-radius: 0;
@@ -206,7 +206,7 @@
   .mega-box .content li a {
     padding: 0 2rem;
     display: block;
-    font-size: 1.5rem;
+    font-size: 20px;
     color: var(--white);
   }
   
