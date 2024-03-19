@@ -11,9 +11,24 @@ closeNav.addEventListener("click", () => {
   menu.classList.remove("show");
 });
 
-const navbaropen = document.getElementById("mega-links");
 
-navbaropen.addEventListener("click", () => {
+const navbaropenmen = document.getElementById("close-men");
+
+navbaropenmen.addEventListener("click", () => {
   console.log("button Clicked");
   menu.classList.remove("show");
 })
+const navbaropenwomen = document.getElementById("close-women");
+
+navbaropenwomen.addEventListener("click", () => {
+  console.log("button Clicked");
+  menu.classList.remove("show");
+})
+
+const navbaropenAccessorries = document.getElementById("close-Accessorries");
+
+navbaropenAccessorries.addEventListener("click", () => {
+  console.log("button Clicked");
+  menu.classList.remove("show");
+})
+
