@@ -10,3 +10,10 @@ openNav.addEventListener("click", () => {
 closeNav.addEventListener("click", () => {
   menu.classList.remove("show");
 });
+
+const navbaropen = document.getElementById("mega-links");
+
+navbaropen.addEventListener("click", () => {
+  console.log("button Clicked");
+  menu.classList.remove("show");
+})
