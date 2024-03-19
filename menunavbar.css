@@ -305,7 +305,9 @@
   
     #showdrop1:checked ~ .drop-menu1,
     #showdrop2:checked ~ .drop-menu2,
-    #showMega:checked ~ .mega-box {
+    #showMega:checked ~ .mega-box,
+    #showMegaWomen:checked ~ .mega-box,
+    #showMegaAccessories:checked ~.mega-box {
       max-height: 100%;
     }
   
