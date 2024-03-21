@@ -2,7 +2,7 @@
 :root {
     --primary: #4214ae;
     --white: rgb(240, 235, 245);;
-    --black: #000d33;
+    --black: #ffffff;
     --ff-jost: "Jost", sans-serif;
     
     --fs-1: 2.5rem;
@@ -39,7 +39,7 @@
   body {
     font-family: "Open Sans", sans-serif;
     font-size: 1.6rem;
-    background-color: rgb(240, 235, 245);
+    background-color: white;
     color: var(--black);
     font-weight: 400;
   }
@@ -82,7 +82,7 @@
     left: 0;
     width: 100%;
     z-index: 999;
-    background-color: white;
+    background-color: rgb(22, 18, 18);
     height: 8rem;
     line-height: 8rem;
   }
@@ -109,7 +109,9 @@
   }
   
   .nav-list a {
-    color: black;
+    color: rgb(0, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serify;
+    font-weight: 600;
     font-size: 20px;
     padding: 0.9rem 1.5rem;
     border-radius: 0.5rem;
@@ -207,7 +209,7 @@
     padding: 0 2rem;
     display: block;
     font-size: 20px;
-    color: var(--white);
+    color: black;
   }
   
   .mega-box .content li a:hover {
@@ -301,7 +303,7 @@
       overflow: hidden;
       background-color: black;
       color: rgb(255, 255, 255);
-    }
+          }
   
     #showdrop1:checked ~ .drop-menu1,
     #showdrop2:checked ~ .drop-menu2,
